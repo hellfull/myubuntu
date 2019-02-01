@@ -33,7 +33,7 @@ else
 		echo "[info] No USER DB specified. "
 	fi
 fi
-
+# if you intent to start mysql service on a later step kill mysql proc now 
 killall mysqld
 sleep 5
 echo "[info] exit"
